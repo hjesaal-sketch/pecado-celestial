@@ -2,11 +2,11 @@ export const brand = {
   name: "Pecado Celestial",
   tagline: "Malas influencias, ricos sabores.",
   sloganShort: "¡Hazlo!",
-  whatsapp: "580000000000", // reemplazar con número real
+  whatsapp: "580000000000",
   email: "pedidos@pecadocelestial.com",
   phone: "+58 000 000 0000",
   colors: {
-    primary: "#9B1B1B", // rojo pecado
+    primary: "#9B1B1B",
     gold: "#C9A227",
     cream: "#F8F1E9",
     dark: "#1A1A2E",
@@ -15,7 +15,6 @@ export const brand = {
   },
   social: {
     instagram: "https://instagram.com/pecadocelestial",
-    // agregar más cuando existan
   },
   paymentMethods: [
     { id: "pagomovil", label: "Pago Móvil" },
@@ -26,7 +25,7 @@ export const brand = {
 
 export const logoPaths = {
   horizontal: "/brand/horizontal-wide-format-logo-3.jpg",
-  mascotDuo: "/brand/clean-professional-brand-iconmascot.jpg",
+  mascotDuo: "/brand/mascot-duo.jpg",
   icon: "/brand/icon-symbol-only-4.jpg",
   bold: "/brand/social-media-and-web-5.jpg",
   premium: "/brand/premium-luxury-version-2.jpg",

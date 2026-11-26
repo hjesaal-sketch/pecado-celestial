@@ -6,15 +6,13 @@ import { brand, logoPaths } from "@/lib/brand";
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-[#1A1A2E]">
-      {/* Background accents */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#9B1B1B]/30 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#C9A227]/15 via-transparent to-transparent" />
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           
-          {/* Left content */}
-          <div className="text-center lg:text-left space-y-8">
+          <div className="text-center lg:text-left space-y-7">
             <div className="inline-flex items-center gap-2 rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10 px-4 py-1.5 text-sm font-medium text-[#C9A227]">
               <span>😈</span>
               <span className="opacity-70">+</span>
@@ -50,7 +48,6 @@ export function Hero() {
               </Link>
             </div>
 
-            {/* Trust pills */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 pt-4 text-sm text-white/50">
               <span className="flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-[#C9A227]" />
@@ -67,30 +64,16 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right visual */}
           <div className="relative flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-sm lg:max-w-md">
-              {/* Main circular icon */}
-              <div className="relative aspect-square rounded-full overflow-hidden border-4 border-[#C9A227]/30 shadow-2xl shadow-[#9B1B1B]/20">
-                <Image
-                  src={logoPaths.icon}
-                  alt="Pecado Celestial"
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 80vw, 400px"
-                />
-              </div>
-
-              {/* Floating badge */}
-              <div className="absolute -bottom-4 -left-4 sm:-left-6 bg-white rounded-2xl px-5 py-3 shadow-xl">
-                <p className="text-xs font-semibold text-[#9B1B1B] uppercase tracking-wider">
-                  ¡Hazlo!
-                </p>
-                <p className="text-sm font-medium text-[#1A1A2E]">
-                  Diablo y Ángel de acuerdo
-                </p>
-              </div>
+            <div className="relative w-full max-w-md lg:max-w-lg">
+              <Image
+                src={logoPaths.mascotDuo}
+                alt="Diablito y Angelito de Pecado Celestial"
+                width={600}
+                height={600}
+                className="w-full h-auto object-contain drop-shadow-2xl"
+                priority
+              />
             </div>
           </div>
         </div>
