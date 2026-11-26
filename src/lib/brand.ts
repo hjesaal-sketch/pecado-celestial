@@ -25,7 +25,7 @@ export const brand = {
 
 export const logoPaths = {
   horizontal: "/brand/horizontal-wide-format-logo-3.jpg",
-  mascotDuo: "/brand/mascot-duo.jpg",
+  mascotDuo: "/brand/clean-professional-brand-iconmascot.jpg",
   icon: "/brand/icon-symbol-only-4.jpg",
   bold: "/brand/social-media-and-web-5.jpg",
   premium: "/brand/premium-luxury-version-2.jpg",
