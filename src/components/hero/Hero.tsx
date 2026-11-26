@@ -42,7 +42,10 @@ export function Hero() {
                 </Button>
               </Link>
               <Link href="/pedido">
-                <Button size="lg" variant="secondary" className="min-w-[160px] border-white/30 text-white hover:bg-white/10">
+                <Button 
+                  size="lg" 
+                  className="min-w-[160px] bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#1A1A2E]"
+                >
                   Hacer pedido
                 </Button>
               </Link>
