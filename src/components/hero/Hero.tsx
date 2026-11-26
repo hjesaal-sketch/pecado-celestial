@@ -70,7 +70,7 @@ export function Hero() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative w-full max-w-md lg:max-w-lg">
               <Image
-                src={logoPaths.mascotDuo}
+                src={logoPaths.bold}
                 alt="Diablito y Angelito de Pecado Celestial"
                 width={600}
                 height={600}

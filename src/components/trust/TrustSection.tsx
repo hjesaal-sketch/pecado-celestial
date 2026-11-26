@@ -55,7 +55,7 @@ export function TrustSection() {
           <div className="relative flex justify-center">
             <div className="relative w-72 h-72 sm:w-80 sm:h-80">
               <Image
-                src={logoPaths.icon}
+                src={logoPaths.advertising}
                 alt="Símbolo Pecado Celestial"
                 fill
                 className="object-contain drop-shadow-xl"

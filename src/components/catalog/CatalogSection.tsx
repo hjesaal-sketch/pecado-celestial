@@ -9,7 +9,7 @@ export function CatalogSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1A1A2E]">
-            Nuestros <span className="text-[#9B1B1B]">Pecados</span>
+            Nuestros Divinos<span className="text-[#9B1B1B]">Pecados</span>
           </h2>
           <p className="mt-3 text-[#1A1A2E]/70">
             Cada sabor tiene su propia personalidad. Elige tu tentación favorita.

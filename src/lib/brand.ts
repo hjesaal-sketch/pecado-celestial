@@ -2,9 +2,9 @@ export const brand = {
   name: "Pecado Celestial",
   tagline: "Malas influencias, ricos sabores.",
   sloganShort: "¡Hazlo!",
-  whatsapp: "580000000000",
+  whatsapp: "584144619756",
   email: "pedidos@pecadocelestial.com",
-  phone: "+58 000 000 0000",
+  phone: "+58 414 461 9756",
   colors: {
     primary: "#9B1B1B",
     gold: "#C9A227",
