@@ -13,7 +13,7 @@ export function Footer() {
               alt={brand.name}
               width={160}
               height={42}
-              className="h-10 w-auto object-contain mb-4 brightness-0 invert"
+              className="h-10 w-auto object-contain mb-4"
             />
             <p className="text-sm text-white/70 leading-relaxed max-w-xs">
               {brand.tagline}
