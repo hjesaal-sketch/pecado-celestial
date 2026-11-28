@@ -24,7 +24,7 @@ export const brand = {
 } as const;
 
 export const logoPaths = {
-  horizontal: "/brand/horizontal-wide-format-logo-3.jpg",
+  horizontal: "/brand/horizontal-wide-format-logo-3.png",
   mascotDuo: "/brand/clean-professional-brand-iconmascot.jpg",
   icon: "/brand/icon-symbol-only-4.jpg",
   bold: "/brand/social-media-and-web-5.jpg",
